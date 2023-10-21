@@ -139,6 +139,7 @@ body {
 }
 
 .hero {
+  height: 600px;
   background-color: #2e2f42;
 }
 .main-title {
@@ -148,6 +149,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   width: 496px;
+  margin-top: 188px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
@@ -224,8 +226,9 @@ body {
 }
 
 .team-list-item {
-  background-color: #ffffff;
+  width: 264px;
   border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 /* SECTION FOUR */
 .portfolio-list {
@@ -233,8 +236,15 @@ body {
   flex-wrap: wrap;
   gap: 24px;
 }
+
+.portfolio-list-item {
+  width: 360px;
+  border: 1px solid #e7e9fc;
+}
+
 /* FOOTER */
 .footer-content {
+  height: 312px;
   padding-top: 60px;
   background-color: #2e2f42;
 }
