@@ -183,6 +183,7 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -202,7 +203,7 @@ body {
   color: #2e2f42;
 }
 
-.Comp-Desc-list {
+.comp-desc-list {
   gap: 24px;
   list-style-type: none;
   display: flex;
